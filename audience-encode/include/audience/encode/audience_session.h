@@ -1,0 +1,11 @@
+#ifndef AUDIENCE_INCLUDE_AUDIENCE_ENCODE_AUDIENCE_SESSION_H_
+#define AUDIENCE_INCLUDE_AUDIENCE_ENCODE_AUDIENCE_SESSION_H_
+
+class AudienceSession
+{
+public:
+    int open();
+    int close();
+};
+
+#endif  // AUDIENCE_INCLUDE_AUDIENCE_ENCODE_AUDIENCE_SESSION_H_

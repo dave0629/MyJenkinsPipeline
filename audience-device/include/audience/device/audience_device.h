@@ -1,0 +1,12 @@
+#ifndef AUDIENCE_INCLUDE_AUDIENCE_DEVICE_AUDIENCE_DEVICE_H_
+#define AUDIENCE_INCLUDE_AUDIENCE_DEVICE_AUDIENCE_DEVICE_H_
+
+#include <string>
+
+class AudienceDevice
+{
+public:
+    std::string get_desc();
+};
+
+#endif  // AUDIENCE_INCLUDE_AUDIENCE_DEVICE_AUDIENCE_DEVICE_H_
